@@ -1,2 +1,3 @@
 const { minStep } = require('./min-step');
-module.exports = { minStep };
+
+console.log(minStep(3));
