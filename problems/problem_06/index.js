@@ -1,2 +1,5 @@
 const { dataUsage } = require('./data-usage');
-module.exports = { dataUsage };
+
+dataUsage().then(console.log).catch(console.error);
+
+// module.exports = { dataUsage };

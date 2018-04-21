@@ -1,2 +1,2 @@
 const { bangkokForecast } = require('./bangkok-forecast');
-module.exports = { bangkokForecast };
+bangkokForecast().then(console.log).catch(console.error);

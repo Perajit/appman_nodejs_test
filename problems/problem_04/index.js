@@ -1,2 +1,2 @@
 const { cryptoDetails } = require('./crypto-details');
-module.exports = { cryptoDetails };
+cryptoDetails(['eth', 'xrp']).then(console.log);
