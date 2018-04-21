@@ -22,7 +22,7 @@ const bangkokForecast = () => {
           dt,
           temp: { min, max }
         } = item;
-        let date = new Date(dt);
+        let date = new Date(+(dt + '000'));
 
         return {
           date: date.toISOString().substr(0, 10),
