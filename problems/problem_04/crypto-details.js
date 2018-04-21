@@ -4,7 +4,10 @@ const API_ROOT = 'https://coinbin.org';
 
 const request = (url, requestOptions) => {
   return fetch(url, requestOptions)
-    .then((res) => res.json());
+    .then((res) => {
+      console.log({json: res.json()})
+      return res.json();
+    });
 }
 
 const cryptoDetails = (symbols = []) => {

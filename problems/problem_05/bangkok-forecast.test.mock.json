@@ -1,0 +1,188 @@
+{
+  "city": {
+    "id": 1609350,
+    "name": "Bangkok",
+    "coord": {
+      "lon": 100.5167,
+      "lat": 13.75
+    },
+    "country": "TH",
+    "population": 0
+  },
+  "cod": "200",
+  "message": 0.0651605,
+  "cnt": 7,
+  "list": [
+    {
+      "dt": 1524286800,
+      "temp": {
+        "day": 29,
+        "min": 27.34,
+        "max": 29,
+        "night": 27.34,
+        "eve": 29,
+        "morn": 29
+      },
+      "pressure": 1022.24,
+      "humidity": 72,
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "speed": 5.08,
+      "deg": 175,
+      "clouds": 12
+    },
+    {
+      "dt": 1524373200,
+      "temp": {
+        "day": 34.99,
+        "min": 27.61,
+        "max": 35.38,
+        "night": 27.87,
+        "eve": 31.72,
+        "morn": 27.61
+      },
+      "pressure": 1021.4,
+      "humidity": 52,
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "speed": 4.77,
+      "deg": 199,
+      "clouds": 32
+    },
+    {
+      "dt": 1524459600,
+      "temp": {
+        "day": 36.35,
+        "min": 27.94,
+        "max": 36.35,
+        "night": 28.29,
+        "eve": 32.25,
+        "morn": 27.94
+      },
+      "pressure": 1019.67,
+      "humidity": 51,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 4.51,
+      "deg": 202,
+      "clouds": 0
+    },
+    {
+      "dt": 1524546000,
+      "temp": {
+        "day": 37.17,
+        "min": 28.19,
+        "max": 37.17,
+        "night": 28.23,
+        "eve": 32.79,
+        "morn": 28.19
+      },
+      "pressure": 1019.69,
+      "humidity": 47,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 3.66,
+      "deg": 213,
+      "clouds": 0
+    },
+    {
+      "dt": 1524632400,
+      "temp": {
+        "day": 36.23,
+        "min": 27.88,
+        "max": 36.23,
+        "night": 28.05,
+        "eve": 33.21,
+        "morn": 27.88
+      },
+      "pressure": 1011.75,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 3.94,
+      "deg": 217,
+      "clouds": 21,
+      "rain": 0.22
+    },
+    {
+      "dt": 1524718800,
+      "temp": {
+        "day": 36.2,
+        "min": 26.72,
+        "max": 36.2,
+        "night": 26.72,
+        "eve": 30.41,
+        "morn": 27.73
+      },
+      "pressure": 1012.67,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 3.17,
+      "deg": 209,
+      "clouds": 11,
+      "rain": 2.9
+    },
+    {
+      "dt": 1524805200,
+      "temp": {
+        "day": 34.49,
+        "min": 25.71,
+        "max": 34.49,
+        "night": 25.71,
+        "eve": 28.45,
+        "morn": 25.95
+      },
+      "pressure": 1014,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 501,
+          "main": "Rain",
+          "description": "moderate rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 1.8,
+      "deg": 175,
+      "clouds": 20,
+      "rain": 6.61
+    }
+  ]
+}

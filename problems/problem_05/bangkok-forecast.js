@@ -14,23 +14,25 @@ const request = (url, requestOptions) => {
 
 const bangkokForecast = () => {
   return request(`${API_ROOT}?APPID=${apiKey}&units=metric&cnt=7&id=${bkkId}`)
-    .then((json) => {
-      let { list } = json;
-
-      return list.map((item) => {
-        let {
-          dt,
-          temp: { min, max }
-        } = item;
-        let date = new Date(+(dt + '000'));
-
-        return {
-          date: date.toISOString().substr(0, 10),
-          minTemp: min,
-          maxTemp: max
-        }
-      });
-    });
+    .then(convertData);
 };
 
-module.exports = { bangkokForecast };
+const convertData = (json) => {
+  let { list } = json;
+
+  return list.map((item) => {
+    let {
+      dt,
+      temp: { min, max }
+    } = item;
+    let date = new Date(+(dt + '000'));
+
+    return {
+      date: date.toISOString().substr(0, 10),
+      minTemp: min,
+      maxTemp: max
+    }
+  });
+}
+
+module.exports = { bangkokForecast, convertData };
